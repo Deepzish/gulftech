@@ -1,0 +1,114 @@
+.col-md-6 img{
+    width: 55%;
+    }
+    
+    
+    .nav-link{
+        color: whitesmoke!important;
+    }
+    header{
+      background: url(https://cdn.hipwallpaper.com/i/33/41/f3rAT7.jpg);
+   
+    position:sticky;
+            top: 0 ;
+    
+    width: 100%;
+    z-index:1;
+    }
+body{
+  background: url();
+}
+
+  #service{
+    text-align: center;
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+    
+  }
+    
+  .service figure img{
+    border-style: groove;
+
+    opacity:0.5;
+   
+  }
+  .service figure img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+
+    opacity:1;
+transition: 1s ease;
+
+box-shadow:
+1px 1px #373737,
+2px 2px #373737,
+3px 3px #373737,
+4px 4px #373737,
+5px 5px #373737,
+6px 6px #373737;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .5s ease;
+    }
+
+    
+
+    .foot{
+      padding-top: 3em;
+      
+    }
+.quick-link a {
+  color:whitesmoke  !important;
+  
+  }
+  .quick-link {
+    color:whitesmoke !important;
+  }
+
+  .addresss-info{
+    color: whitesmoke ;
+  }
+  .addresss-info a{
+    color:whitesmoke ;
+   }
+
+.astrodivider {
+  margin:64px auto;
+  width:400px; 
+  max-width: 100%;
+  position:relative;
+}
+
+.astrodividermask { 
+    overflow:hidden; height:20px; 
+}
+
+.astrodividermask:after { 
+      content:''; 
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;  
+        border-radius:125px / 12px;
+       box-shadow:0 0 8px #049372;
+}
+.astrodivider span {
+    width:50px; height:50px; 
+    position:absolute; 
+    bottom:100%; margin-bottom:-25px;
+    left:50%; margin-left:-25px;
+    border-radius:100%;
+   box-shadow:0 2px 4px #4fb39c;
+    background:#fff;
+}
+.astrodivider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed #68beaa;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+    color:#049372;
+}
